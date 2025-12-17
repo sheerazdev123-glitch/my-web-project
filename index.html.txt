@@ -1,3 +1,6 @@
+<h1>Hello, Git! This is Version 2.0 - Added a paragraph.</h1>
+<p>This paragraph is being tracked by Git. Every time I save it, Git remembers!</p>
+
 <!DOCTYPE html>
 <html>
 <head>
