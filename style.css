@@ -10,15 +10,13 @@ h1 {
     border-bottom: 2px solid #2c3e50;
     display: inline-block;
     padding-bottom: 10px;
+    margin-top: 60px; /* <--- Add this line */
 }
 
-p {
-    color: #34495e;
-    font-size: 1.2rem;
-}
 
 img {
+    display: block;    /* <--- Add this to allow centering */
+    margin: 40px auto; /* <--- Change this to 'auto' */
     border: 3px solid #2c3e50;
-    margin: 20px 0;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
 }
