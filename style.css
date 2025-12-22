@@ -39,7 +39,7 @@ img {
 }
 
 ul {
-    list-style-type: none; /* This removes the bullet points */
+    list-style-type: none; /* Removes the bullet dots */
     padding: 0;
 }
 
@@ -48,8 +48,17 @@ li {
     margin: 15px auto;
     padding: 15px;
     width: 250px; 
-    border-left: 10px solid #e74c3c; /* That bold red from your logo */
+    border-left: 10px solid #e74c3c; /* Red stripe from your logo */
     border-radius: 5px;
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.1); /* Adds the card shadow */
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1); 
     font-family: Arial, sans-serif;
+    transition: 0.3s; /* This makes the "lift" and color change smooth */
+}
+
+li:hover {
+    background-color: #e74c3c;    /* Turns red like your button */
+    color: white;                 /* Makes text white so it pops */
+    transform: translateY(-10px); /* This is the magic "Lift" command */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Makes the shadow deeper */
+    cursor: pointer;
 }
