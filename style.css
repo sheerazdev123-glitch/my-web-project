@@ -81,3 +81,17 @@ li:hover {
 .navbar a:hover {
     color: #e74c3c; /* The red from your logo */
 }
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    background: #f4f7f6;
+    padding: 50px 20px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #2c3e50;
+    margin-top: 10px;
+    border-bottom: none; /* Removing the old underline for this header */
+}
