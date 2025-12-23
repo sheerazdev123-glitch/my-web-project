@@ -95,3 +95,18 @@ li:hover {
     margin-top: 10px;
     border-bottom: none; /* Removing the old underline for this header */
 }
+
+.testimonials {
+    background-color: #ecf0f1;
+    padding: 40px 20px;
+    margin-top: 30px;
+}
+
+.review-card {
+    font-style: italic;
+    background: white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
