@@ -230,3 +230,56 @@ th { background-color: #2c3e50; color: white; }
 html {
   scroll-behavior: smooth;
 }
+
+/* --- Mobile Responsive Styles --- */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stacks 'Big L Driving' on top of the links */
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .nav-links {
+        margin-top: 15px;
+        padding: 0;
+        justify-content: center; /* Centers the links on the phone screen */
+    }
+
+    .nav-links li {
+        margin: 0 10px; /* Gives links a bit of breathing room side-to-side */
+    }
+
+    /* Makes the big title a bit smaller so it doesn't wrap weirdly on phones */
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    /* 1. Tell the navbar to stack its children (Logo and Links) */
+    .navbar {
+        flex-direction: column; 
+        height: auto; /* Allow the header to grow taller to fit the stacked content */
+        padding: 20px;
+    }
+
+    /* 2. Tell the link list to stack the individual boxes */
+    .nav-links {
+        flex-direction: column; /* This turns the horizontal row into a vertical column */
+        width: 100%;
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    /* 3. Make the link boxes full width so they look like buttons */
+    .nav-links li {
+        width: 100%;
+        margin: 5px 0; /* Add space between the stacked buttons */
+        text-align: center;
+    }
+
+    .nav-links a {
+        display: block; /* Makes the whole box clickable */
+        width: 100%;
+    }
+}
