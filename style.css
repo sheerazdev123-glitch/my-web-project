@@ -301,3 +301,20 @@ html {
   text-decoration: none;
   z-index: 1000; /* Ensures it stays on top of images */
 }
+
+/* --- Your existing code (Keep this!) --- */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--primary-red); /* Using your new variable! */
+  /* ... rest of your styling ... */
+}
+
+/* --- The new addition (Add this below) --- */
+.back-to-top:hover {
+  background-color: #b71c1c; /* A slightly darker red */
+  transform: scale(1.1);    /* Makes the button grow 10% */
+  transition: 0.3s;         /* Makes the growth and color change smooth */
+  cursor: pointer;          /* Changes the mouse to a pointing hand */
+}
