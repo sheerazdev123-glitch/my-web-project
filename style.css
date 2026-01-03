@@ -5,6 +5,12 @@
 }
 
 body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--dark-grey); /* Using the variable you made earlier! */
+}
+
+body {
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
