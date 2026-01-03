@@ -1,3 +1,9 @@
+:root {
+  --primary-red: #d32f2f;
+  --dark-grey: #333;
+  --white: #ffffff;
+}
+
 body {
     background-color: #f0f8ff; /* Light blue background */
     font-family: 'Segoe UI', Arial, sans-serif;
@@ -288,7 +294,7 @@ html {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color: #333;
+  background-color: var(--primary-red);
   color: white;
   padding: 15px;
   border-radius: 50%;
