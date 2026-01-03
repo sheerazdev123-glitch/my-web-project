@@ -17,4 +17,4 @@ You can view the live website here:
 ## Built with:
 * HTML5 
 * CSS3 (flexbox & Media Queries)
-* Git/GitHub for Version Control
+* Git/GitHub for Version Control.
