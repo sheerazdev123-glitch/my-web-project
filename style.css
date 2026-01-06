@@ -323,3 +323,32 @@ html {
   transition: 0.3s;         /* Makes the growth and color change smooth */
   cursor: pointer;          /* Changes the mouse to a pointing hand */
 }
+
+#contact-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 12px;
+    border: 1px solid var(--dark-grey);
+    border-radius: 4px;
+    font-family: inherit; /* This makes it use your new font! */
+}
+
+.contact-form .btn {
+    background-color: var(--primary-red);
+    color: var(--white);
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
